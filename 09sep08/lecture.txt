@@ -1,0 +1,6 @@
+git clone https://github.com/pegurnee-edu/cosc231-fa15
+go over syllabus
+set up people.emich.edu accounts
+use filezilla to create new folder for 231
+use sftp with textwrangler to create basic index.html
+htmldog tutorial
