@@ -1,0 +1,1 @@
+For a 5% bump at the end of the semester, make at least five commits to any repo hosting computer science coursework every week until the end of the semester.
