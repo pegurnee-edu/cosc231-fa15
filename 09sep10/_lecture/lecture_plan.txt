@@ -1,0 +1,8 @@
+htmldog.com/beginner up to and (possibly) including tables
+paragraphs, line breaks
+headings, emphasis, strong
+lists (ordered and unordered)
+links
+images
+tables
+lab time
