@@ -1,0 +1,4 @@
+block vs inline
+div and span
+table, caption, tr, th, td
+
