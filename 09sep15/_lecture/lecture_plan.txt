@@ -1,4 +1,8 @@
+table, caption, tr, th, td
+http://www.htmldog.com/guides/html/beginner/tables/
+http://www.htmldog.com/guides/html/intermediate/tables/
+http://www.htmldog.com/guides/html/advanced/tables/
+
 block vs inline
 div and span
-table, caption, tr, th, td
-
+http://www.w3schools.com/html/html5_semantic_elements.asp
