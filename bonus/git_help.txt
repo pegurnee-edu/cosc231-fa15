@@ -1,0 +1,17 @@
+git config --global user.name "Your Name"
+git config --global user.email your_name@probablyhotmail.com
+
+git clone [repo]
+git status
+git add --all
+git commit -m "some message"
+git push origin master
+
+git pull origin master
+git add [filename]
+git init
+git remote -v
+git remote add origin [repo]
+
+http://rogerdudler.github.io/git-guide/
+https://try.github.io/levels/1/challenges/1
