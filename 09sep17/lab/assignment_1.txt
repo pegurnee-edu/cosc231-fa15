@@ -1,0 +1,9 @@
+Using html input tags, create the following page:
+
+http://emunix.emich.edu/~haynes/231/wi14/Project/pp2Image.png
+
+**image courtesy of Dr Haynes**
+
+It'll be really obvious when you're done because the webpage will look exactly like that one.
+
+Fight the urge to simply use the image tag. That's not what we're looking for here.

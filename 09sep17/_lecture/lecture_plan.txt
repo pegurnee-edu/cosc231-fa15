@@ -1,0 +1,35 @@
+form, input, textarea, button, select/option
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+http://www.w3schools.com/tags/tag_input.asp
+http://htmldog.com/reference/htmltags/input/
+
+form:
+  method
+  action
+
+input types:
+  radio
+  checkbox
+  text
+  password
+  submit
+    onclick
+
+input:
+  name
+  value
+  required
+  disabled
+
+button:
+  onclick
+  inside of forms
+
+select:
+  name vs option value
+  multiple
+
+textarea:
+  cols
+  rows
+  name
