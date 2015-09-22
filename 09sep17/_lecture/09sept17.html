@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>Sept 17th Code</title>
+  </head>
+  <body>
+  	<h1>Today is the day for formz</h1>
+  	<form action="http://people.emich.edu/egurnee/teach/a.php" 
+  			method="POST">
+  		<label>Username: <input type="text" name="username" placeholder="name" /><br /></label>
+  		<label>Password: <input type="password" name="password" onchange="console.log(this.value);" /><br /></label>
+  		
+  		
+<p >
+	<table>
+  			<tr><th>Favorite colors:</th></tr>
+  			<tr>
+  				<td><input type="checkbox" value="red" name="color[0]" /></td>
+  			
+  				<td>Red:</td></tr>
+  			<tr>
+  				<td><input type="checkbox" value="red" name="color[0]" /></td>
+  			
+  				<td>Green:</td>
+  			</tr>
+  			<tr>
+  				<td><input type="checkbox" value="red" name="color[0]" /></td>
+  			
+  				<td>Blue:</td>
+  			</tr>
+  		</table>
+  		</p>
+ 
+  		<div style="float:left;">
+			<p>
+				Favorite color:
+				<label>Red: <input checked="checked" type="radio" value="red" name="colour" /></label>
+				<label>Blue: <input type="radio" value="blue" name="colour" /></label>
+				<label>Green: <input type="radio" value="green" name="colour" /></label>
+			</p>
+  		</div>
+  		
+  		<div style="float:left;">
+			<input type="submit" value="submit" />
+			<input type="button" value="click here" />
+		
+			<select name="selector" onchange="console.log(this.value);">
+				<option value="osx"> OSX </option>
+				<option value="cafe"> Coffee </option>
+				<option value="projector"> Projector</option>
+				<option value="a mouz"> This mouse here</option>
+			</select>
+  		</div>
+  		<select id="color-selector" name="selector" 
+  				onchange="document.body.style.backgroundColor = this.value;">
+  			<option value="maroon"> Red </option>
+  			<option value="blue"> Blue </option>
+  			<option value="green"> Green</option>
+  			<option value="yellow"> Yellow</option>
+  		</select>
+  		
+  		<textarea name="all-the-text">here is the starting text</textarea>
+  		<button type="button" onclick="">Click here</button>
+  	
+  		<input type="reset" />
+  	</form>
+  	<p><textarea 
+  		resizable="false"
+  		name="all-the-text"
+  		cols="10"
+  		rows="3"
+  		onchange="console.log(this.value);">here is the starting text</textarea></p>
+  
+  <script>
+//   	document.body.style.backgroundColor = document.getElementById('color-selector').value;
+  </script>
+  <button></button>
+  </body>
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</html>
