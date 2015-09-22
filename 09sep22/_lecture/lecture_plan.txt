@@ -1,0 +1,49 @@
+css
+selectors:
+	tag
+	.class
+	#id
+
+values
+	colors (#, name)
+	size (px, em, %)
+background
+	color
+	image
+	
+-basic box model-
+width
+height
+float
+-end basic box model-
+color
+text
+	decoration (overline)
+	transform (uppercase)
+	align 
+font
+	size
+	weight (bold)
+	style (italic)
+	family
+border
+	style
+	width
+	color
+		-basic box model rules
+
+list
+	list-style
+		type (lower-greek, square)
+		image (url(www))
+table
+	border-collapse (collapse, separate)
+
+cursor (default, crosshair, wait, pointer)
+psuedo-class:
+	:hover
+psuedo-selectors
+	:before (content)
+	:first-letter
+	:first-line
+	
