@@ -1,0 +1,12 @@
+apply some style to your homepage:
+
+- add a background color to the whole page content
+- apply a text-color to all of your header tags
+- center the "days meeting" data in your table of classes
+- apply an alternating color pattern to the rows of your classes table
+- bring your "about me" paragraph next to the picture of your row
+- give your "about me" paragraph a border
+- set the font in your "about me" paragraph to something pleasing
+
+use only external style sheet(s) or internal <style></style> tags.
+NO in-line style=""
