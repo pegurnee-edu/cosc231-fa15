@@ -15,6 +15,7 @@ background
 width
 height
 float
+clear
 -end basic box model-
 color
 text
@@ -46,4 +47,17 @@ psuedo-selectors
 	:before (content)
 	:first-letter
 	:first-line
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
