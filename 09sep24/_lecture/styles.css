@@ -1,0 +1,67 @@
+img {
+	float: right;
+	width: 40em;
+}/*
+
+p {
+	display: inline;
+}
+ */
+p.red {
+	background-color: red;
+	width: 30em;
+	margin: 15px;
+
+	position: relative;
+	z-index: -1;
+}
+p.yellow {
+	background-color: yellow;
+	width: 50px;
+	margin: 15px;
+	height: 200px;
+	position: relative;
+	top: 30px;
+	right: 10px;
+}
+p.green {
+	background-color: green;
+	width: 20em;
+	margin: 10px;
+}
+article {
+	position: relative;
+	background-color: orange;
+	z-index: -1;
+/* 	opacity: .5; */
+}
+footer {
+	background-color: aquamarine;
+	text-align: center;
+	width: 100%;
+
+	position: sticky;
+	bottom: 0;
+}
+
+div {
+	display: none;
+}
+
+
+.green, .red {
+	opacity: .5;
+}
+
+.green.red {
+	background-color: black;
+	color: white;
+}
+
+article > div.popup {
+	display: block;
+	position: absolute;
+	opacity: .75;
+	z-index: 2001;
+	background-color: gold;
+}
