@@ -1,0 +1,31 @@
+custom elements:
+  http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
+  https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements
+
+float:
+  needs width
+
+box model:
+  content
+  padding
+  border
+  margin - vertical margins
+
+display:
+  block
+  inline
+  inline-block
+  none
+
+visibility:
+  visible
+  hidden
+
+position:
+  static
+  relative
+  absolute
+  fixed
+  sticky
+
+z-index
