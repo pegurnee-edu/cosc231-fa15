@@ -1,0 +1,12 @@
+Document Object Model
+
+trees vs stack,queue,graph
+traversing the DOM
+  children
+  parentNode
+  nextSibling
+  
+creating the DOM
+  createElement
+  appendChild
+  removeChild
