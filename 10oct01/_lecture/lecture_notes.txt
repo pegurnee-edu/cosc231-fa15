@@ -1,0 +1,10 @@
+DOM Notation
+  rectangles for Nodes
+  circles for attribute
+    name: "value"
+  rounded rectangles for textnodes
+
+document
+  createElement
+  appendChild
+  insertBefore
