@@ -24,6 +24,8 @@ null/undefined
 symbol
   used to create a unique identifier
 
+truthy/falsy
+
 everything else is an object
   object
     array
