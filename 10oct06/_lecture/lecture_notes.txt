@@ -1,0 +1,33 @@
+primatives
+  string
+  number
+  boolean
+  null
+  undefined
+  symbol
+
+string
+  single or double
+  backtick for interpolate
+
+number
+  floating/integer
+  NaN, +/-infinity
+
+boolean
+  true/false
+
+null/undefined
+  null is the value null
+  undefined is a value that hasn't been set yet
+
+symbol
+  used to create a unique identifier
+
+everything else is an object
+  object
+    array
+    function
+    regex
+    date
+    JSON
