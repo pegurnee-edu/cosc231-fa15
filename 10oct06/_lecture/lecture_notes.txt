@@ -32,4 +32,5 @@ everything else is an object
     function
     regex
     date
+    math
     JSON
