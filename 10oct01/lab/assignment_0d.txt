@@ -1,3 +1,4 @@
 1) draw the DOM tree for your homepage
-
+  # extra credit if you use yEd
 2) comment out the body of your homepage, using one external javascript file, recreate your entire webpage.
+  # massive brownie points and extra credit if you use the js DOM interactions instead of innerHTML and/or document.write()
