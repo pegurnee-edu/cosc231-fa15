@@ -1,0 +1,6 @@
+Create a high low guessing game:
+
+- a random (integer) number is generated (from 1-100)
+- user input allows for guesses
+- output of 'too high' or 'too low' accordingly
+- when the user gets it right, the game is over and the user wins
