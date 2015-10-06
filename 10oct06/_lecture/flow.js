@@ -16,16 +16,18 @@ if (typeof someNum == 'number') {
   console.log(`someNum: ${someNum} is not a number!`);
 }
 
-if (typeof someNum.toString() == 'number') {
-  console.log(`someNum: ${someNum} is a number!`);
+var sNumToStr = someNum.toString();
+if (typeof sNumToStr == 'number') {
+  console.log(`sNumToStr: ${sNumToStr} is a number!`);
 } else {
-  console.log(`someNum: ${someNum} is not a number!`);
+  console.log(`sNumToStr: ${sNumToStr} is not a number!`);
 }
 
-if (typeof String(someNum) == 'number') {
-  console.log(`someNum: ${someNum} is a number!`);
+var sNumAsStr = String(someNum);
+if (typeof sNumAsStr == 'number') {
+  console.log(`sNumAsStr: ${sNumAsStr} is a number!`);
 } else {
-  console.log(`someNum: ${someNum} is not a number!`);
+  console.log(`sNumAsStr: ${sNumAsStr} is not a number!`);
 }
 
 if (someNum == 3) {
@@ -47,9 +49,9 @@ if (someNum === '3') {
 }
 
 if (someNum === Number('3')) {
-  console.log(`someNum: ${someNum} is strictly '3'!`);
+  console.log(`someNum: ${someNum} is strictly ${Number('3')}!`);
 } else {
-  console.log(`someNum: ${someNum} is not '3'!`);
+  console.log(`someNum: ${someNum} is not ${Number('3')}!`);
 }
 
 if (goForward) {
