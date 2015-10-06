@@ -1,10 +1,12 @@
+/*
 if (textHere.length > 5) {
   console.log(`textHere: ${textHere} is long!`);
 } else {
   console.log(`textHere: ${textHere} is short!`);
 }
 
-if (textHere[0] === 'S') {
+// if (textHere[0] === 'S') {
+if (textHere.charAt(0) === 'S') {
   console.log(`textHere: ${textHere} starts with S!`);
 } else {
   console.log(`textHere: ${textHere} does not start with S!`);
@@ -30,6 +32,7 @@ if (typeof sNumAsStr == 'number') {
   console.log(`sNumAsStr: ${sNumAsStr} is not a number!`);
 }
 
+*/
 if (someNum == 3) {
   console.log(`someNum: ${someNum} is 3!`);
 } else {
@@ -41,6 +44,8 @@ if (someNum == '3') {
 } else {
   console.log(`someNum: ${someNum} is not '3'!`);
 }
+
+// typeof someNum == typeof '3' && sumNum == '3'
 
 if (someNum === '3') {
   console.log(`someNum: ${someNum} is strictly '3'!`);
@@ -65,3 +70,48 @@ if (someNum) {
 } else {
   console.log('Not good enough for me!');
 }
+
+if (null) {
+  console.log('Eh, sure, that\'s good enough');
+} else {
+  console.log('Not good enough for me!');
+}
+
+var valid = new Boolean(false);
+var alsoNoGood = new String('');
+
+typeof valid; //object
+typeof alsoNoGood; //object
+typeof null; //object
+typeof undefined; //undefined
+
+if (valid) {
+	//shouldn't happen but does
+}
+
+''; //falsy
+[]; //falsy?
+
+if ([] || {}) {
+	//both will
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
