@@ -41,3 +41,25 @@
   console.log(goBack);
   console.log(goWhereEver);
 }
+
+// Null
+{
+  var nada = null;
+  var theBod = document.body;
+
+  console.log(nada);
+  console.log(theBod);
+}
+
+// Undefined
+{
+  var nil;
+
+  console.log(nil);
+
+  function logger(text) {
+    console.log(text);
+  }
+
+  logger();
+}
