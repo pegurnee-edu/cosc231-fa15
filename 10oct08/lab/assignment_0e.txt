@@ -1,0 +1,6 @@
+add to your homepage a button in the upper right hand corner. when clicked, this button makes visible a menu of user assist options.
+
+- toggle greyscale
+- increase/decrease font size
+
+Hint: the #assist-menu should be position:fixed and should start hidden, the only thing the button to active assist menu should do is make the menu visible
