@@ -1,0 +1,13 @@
+flow of control
+  if/elseif/else
+  for/while
+  forin/forof
+
+gelElementById
+getElementsByClassName
+getElementsByName
+getElementsByTagName
+
+querySelectorAll
+
+functions
