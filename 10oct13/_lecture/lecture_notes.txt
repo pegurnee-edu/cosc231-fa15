@@ -1,0 +1,5 @@
+regex
+  delimiters / /
+  literals
+  
+  modifiers /g
