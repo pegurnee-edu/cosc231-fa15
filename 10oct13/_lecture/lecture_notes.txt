@@ -10,7 +10,9 @@ regex
 
 methods
   test    :: bool
-  match   :: []
+  exec	  :: []
+  
   search  :: int
   split   :: []
   replace :: string
+  match   :: []

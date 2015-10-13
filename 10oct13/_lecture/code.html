@@ -14,7 +14,10 @@
     <label>ParseHere:
       <input type="text" id="parseTarget" />
     </label>
-    <button onclick="">Click to check</button>
+    <button onclick="validatePhone(document.getElementById('parseTarget').value);">Click to check</button>
+    <label>House:
+      <input type="text" pattern="\d+ \w+" />
+    </label>
   </body>
 
 </html>
