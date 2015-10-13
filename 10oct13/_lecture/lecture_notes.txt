@@ -1,5 +1,16 @@
 regex
   delimiters / /
   literals
-  
-  modifiers /g
+  boundaries ^ $
+  regex modifiers /gi
+  as many as {,}
+  match modifiers * + ? .
+  grouping () [] |
+  special \d \s \w
+
+methods
+  test    :: bool
+  match   :: []
+  search  :: int
+  split   :: []
+  replace :: string
