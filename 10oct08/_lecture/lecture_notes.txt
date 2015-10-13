@@ -3,7 +3,7 @@ flow of control
   for/while
   forin/forof
 
-gelElementById
+getElementById
 getElementsByClassName
 getElementsByName
 getElementsByTagName
