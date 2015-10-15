@@ -8,3 +8,11 @@ using the module format discussed in class create a validator module.
   - boolean isEid(testString)
 - there should be a function allowing for a user supplied regex
   - boolean isA(testString, userRegexString)
+
+Comment the logic behind each validation function
+i.e. 
+/* allows for parens around area code if exists
+ * hyphens or spaces if exists
+ * area codes don't start with one
+ */
+isPhone(string)

@@ -2,15 +2,21 @@
 <html>
 
   <head>
-    <title>October 15th</title>
-    <script type="text/javascript" src="objects.js">
-
-
-    </script>
+    <meta charset="UTF-8">
+    <title>Oct 15th Code</title>
+    <script type="text/javascript" src="validator.js"> </script>
+    <script type="text/javascript" src="object.js"> </script>
+    <script type="text/javascript" src="regexes.js"> </script>
   </head>
 
   <body>
-
+    <label>ParseHere:
+      <input type="text" id="parseTarget" />
+    </label>
+    <button onclick="console.log(validator.isPhone(document.getElementById('parseTarget').value));">Click to check</button>
+    <label>House:
+      <input type="text" pattern="\d+ \w+" />
+    </label>
   </body>
 
 </html>

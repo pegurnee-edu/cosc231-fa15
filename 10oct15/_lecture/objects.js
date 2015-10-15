@@ -7,9 +7,16 @@ var s1 = 'string', //typeof string
   b2 = false, //typeof boolean
   u = undefined, //typeof undefined
   nu = null, //typeof object (silly error from the beginning)
+  
+  re1 = /ab/,
+  re2 = /[db]/,
 
   ar1 = [],
   ar2 = [1, 2, 'three'];
+  
+  console.log(ar2[1]); //2
+  
+ar2['hello'] = world;
 
 var person1 = {}; //typeof object
 
@@ -24,3 +31,24 @@ var person2 = {
   rank: 'Graduate Assistant',
   hoursOfSleepThisWeek: 10
 };
+
+
+person2.sleepMore = function() {
+	this.hoursOfSleepThisWeek++;
+}
+
+person1.sleepMore = sleep; //notice no ()
+
+// person2.sleepMore();
+
+
+
+
+
+
+
+
+
+
+
+
