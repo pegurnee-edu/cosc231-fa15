@@ -1,2 +1,6 @@
+associate arrays
+
 objects
   as modules
+
+anonymous functions
