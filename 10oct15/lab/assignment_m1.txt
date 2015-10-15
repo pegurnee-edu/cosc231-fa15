@@ -1,0 +1,10 @@
+using the module format discussed in class create a validator module.
+
+- there should be several prebuild validation functions
+  - boolean isJavaIdentifier(testString)
+  - boolean isPhone(testString)
+  - boolean isEmail(testString)
+  - boolean isDate(testString)
+  - boolean isEid(testString)
+- there should be a function allowing for a user supplied regex
+  - boolean isA(testString, userRegexString)
