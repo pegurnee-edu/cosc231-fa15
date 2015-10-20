@@ -8,15 +8,16 @@
 
   <body>
     <script type="text/javascript">
-      if (hasCookie('username')) {
-        document.write(`<h1>Welcome back, ${getCookie('username')}</h1>`);
-      }
-
+      // if (hasCookie('username')) {
+//         document.write(`<h1>Welcome back, ${getCookie('username')}</h1>`);
+//       }
+	document.cookie = 'name=eddie';
+	
     </script>
     <label>Username:
       <input type="text" name="username" />
     </label>
-    <button onclick="addCookie()">Store</button>
+    <button onclick="addCookie()">Login</button>
   </body>
 
 </html>
