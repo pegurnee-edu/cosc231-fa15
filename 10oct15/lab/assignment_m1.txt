@@ -1,6 +1,6 @@
 using the module format discussed in class create a validator module.
 
-- there should be several prebuild validation functions
+- there should be several prebuilt validation functions
   - boolean isJavaIdentifier(testString)
   - boolean isPhone(testString)
   - boolean isEmail(testString)
@@ -10,7 +10,7 @@ using the module format discussed in class create a validator module.
   - boolean isA(testString, userRegexString)
 
 Comment the logic behind each validation function
-i.e. 
+i.e.
 /* allows for parens around area code if exists
  * hyphens or spaces if exists
  * area codes don't start with one
