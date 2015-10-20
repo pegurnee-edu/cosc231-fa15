@@ -1,0 +1,5 @@
+document.cookie
+  represented as a string
+  name=value
+    expires=
+    path=

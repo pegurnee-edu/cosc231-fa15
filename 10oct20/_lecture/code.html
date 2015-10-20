@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Oct 20th</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      if (hasCookie('username')) {
+        document.write(`<h1>Welcome back, ${getCookie('username')}</h1>`);
+      }
+
+    </script>
+    <label>Username:
+      <input type="text" name="username" />
+    </label>
+    <button onclick="addCookie()">Store</button>
+  </body>
+
+</html>
