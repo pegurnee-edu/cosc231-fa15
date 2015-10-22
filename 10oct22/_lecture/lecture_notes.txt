@@ -1,0 +1,10 @@
+cookies
+
+localStorage
+  setItem
+  getItem
+  length
+
+sessionStorage
+
+differences in use - client vs server
