@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Oct 22th</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+    	if (localStorage['username']) {
+    		document.write(`<h1>Welcome back, ${localStorage['username']}</h1>`);
+    		
+    		// setTimeout(function() {
+//     			alert('home.html');
+//     		}, 10000);
+    	}
+    	
+    	function login() {
+    		localStorage['username'] = document.getElementById('username').value;
+    		
+    		location.reload();
+    	}
+    </script>
+    <form action="login.php" method="POST">
+    <label>Username:
+      <input type="text" name="username" id="username" />
+    </label>
+    <label>Password:
+    	<input type="password" name="password" >
+    </label>
+    <button>Login</button>
+    </form>
+  </body>
+
+</html>
