@@ -1,0 +1,5 @@
+timers
+canvas
+
+#functions as first class objects
+#object constructors
