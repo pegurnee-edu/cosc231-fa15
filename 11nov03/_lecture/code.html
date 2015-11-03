@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+	<script src="timing.js" defer> </script>
+	<style>
+		#flashbox {
+			position: absolute;
+		}
+	</style>
+</head>
+
+<body>
+	<button onclick="moveLogo()">Click to move!</button>
+	<button onclick="setTimeout(moveLogo, 1000);">Move soon!</button>
+	<button onclick="timeoutHandler(moveLogo, 100);">Move also!</button>
+	<button onclick="start();">Move better!</button>
+	<button onclick="stop();">HALT!</button>
+	<button onclick="startLeft();">Move the other way!</button>
+	<div id="flashbox">
+		<img src="flash.jpg" width="150px" alt="picture of the flash CW logo" />
+	</div>
+</body>
+
+</html>
