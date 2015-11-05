@@ -1,0 +1,3 @@
+rewrite your cookie and validator libraries from immediate objects to functions using either the factory pattern or a constructor pattern.
+
+Two seperate .js files should be turned in, one for cookie and one for validator.
