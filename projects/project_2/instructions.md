@@ -27,6 +27,7 @@ Implement [Conway's Game of Life][life]. For those of you who are unwilling to f
   - restart the board with a random assortment of cells alive
   - change the color of alive cells
   - clicking on a cell to swap it's alive status
+- needs at least 20 x 20 board
 
 ## Expectations
 
