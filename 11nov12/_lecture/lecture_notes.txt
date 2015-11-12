@@ -5,3 +5,5 @@ regex
 
 prototypes
   constructors
+  Object.create(prototype)
+  Function.call(this, param)
