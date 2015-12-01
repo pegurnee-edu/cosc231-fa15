@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-git2.min.js"></script>
+		<script src="notify.min.js"></script>
+		<script>
+		$(function() {
+			var $con = $('<div/>');
+			
+			$('body').append($con); //$con.appendTo( $('body') );
+			
+			var som = $con
+			  .attr({
+				'id': 'container',
+				'class': 'centered yellow'
+			  })
+			  .css({
+				'width': '40em',
+				'height': '8em'
+			  })
+			  .hover(function(e) {
+			  	$(this).toggleClass('yellow');
+			  })
+			  .html('<input id="inputter" /><button>click</button>').text();
+			  
+// 			  $('#container').append( $('<input/>') )
+			$('#container button').click(function(event) {
+				$.notify( $('#inputter').val() , 'success');
+				$(this).parent().toggleClass('yellow');
+			});
+			
+			$('#inputter').change(function(event) {
+				var elem = $(this);
+				if ( elem.val().match(/^\d{5}$/) ) {
+					elem.removeClass('red');
+					elem.addClass('green');
+				} else {
+					elem.removeClass('green');
+					elem.addClass('red');
+				}
+			});
+			
+// 			console.log(som);
+			console.log($con.attr('id'));
+			
+			$('<ul/>').attr('id', 'list').appendTo( $con );
+			
+			for (var i = 0; i < 15; i++) {
+				$('#list').append( $('<li/>').html(`Item ${i}`) );
+			}
+			
+			$con.append( $('<button/>').text('click on my friends').click(function(e) {
+					$('li').not(':odd').toggleClass('green').fadeOut(1000);
+				})
+			);
+			
+			$con.append( $('<button/>').text('click off my friends').click(function(e) {
+					$('li').not(':odd').toggleClass('green').show(1000);
+				})
+			);
+		});
+		</script>
+		<style>
+			.centered {
+				text-align: center;
+			}
+			.green {
+				background-color: green;
+			}
+			.red {
+				background-color: red;
+			}
+			.yellow {
+				background-color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		
+	</body>
+</html>
+
+
+
+
+
+
