@@ -5,11 +5,45 @@
     <title>Painting</title>
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
-
+		$(document).ready(function() {
+			var cw = $('<input/>').attr('type', 'color').appendTo( $('#pallet') ),
+				coloring = false,
+				draw = function(x, y) {
+					var ctx = $('canvas')[0].getContext('2d');
+					ctx.fillStyle = cw.val();
+					if (coloring) ctx.fillRect(x - 5, y - 5, 10, 10);
+				};
+			$('<canvas/>').appendTo( $('#container') ).on('mousemove', function(e) {
+				var x, y;
+				if (e.offsetX) {
+					x = e.offsetX;
+					y = e.offsetY;
+				} else if (e.layerX) {
+					x = e.layerX;
+					y = e.layerY;
+				}
+				
+				draw(x, y);
+			});
+			$('#container').click(function() {
+				// if (coloring) {
+// // 					coloring = false;
+// // 				} else {
+// // 					coloring = true;
+// // 				}
+// 				
+				coloring = !coloring;
+			});
+		});
     </script>
   </head>
   <body>
     <div id="container"></div>
-
+	<div id="pallet"></div>
   </body>
 </html>
+
+
+
+
+

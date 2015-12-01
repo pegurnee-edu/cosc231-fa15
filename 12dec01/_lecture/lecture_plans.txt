@@ -1,6 +1,6 @@
 jquery
-  $(function() { } );
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  $(function() { } );
   selecting elements
     filtering (has, not, filter)
   attr, html, val
@@ -17,4 +17,4 @@ jquery
   fadeIn()
   fadeOut()
 
-expirament
+expeRAHment
