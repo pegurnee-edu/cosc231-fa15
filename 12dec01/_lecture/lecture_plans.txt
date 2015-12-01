@@ -1,0 +1,20 @@
+jquery
+  $(function() { } );
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  selecting elements
+    filtering (has, not, filter)
+  attr, html, val
+  append, appendTo
+  $("<a/>")
+
+  css()
+  add/remove/toggleClass()
+
+  hover()
+  click()
+  $(this)
+
+  fadeIn()
+  fadeOut()
+
+expirament
