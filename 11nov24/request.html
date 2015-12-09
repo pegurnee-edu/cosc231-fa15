@@ -1,0 +1,39 @@
+<!doctype html>
+
+<head>
+	<title>Ajax</title>
+	<script src="ajax.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<style>
+	.green {
+		background-color: green;
+	}
+	.red {
+		background-color: red;
+	}
+	</style>
+</head>
+
+<body>
+	<button onclick="$getData();">Give me info</button>
+	<button onclick="$loadRest();">click</button>
+	<button onclick="$('#target').removeClass('green').addClass('red');">red</button>
+	<button onclick="$('#target').removeClass('red').addClass('green').wrap('<em></em>');">green</button>
+	
+	<div id="target"></div>
+</body>
+
+<script>
+var thing = {
+	'name': 
+		{ 
+		'first': 'eddie', 
+		'last': 'gurnee' 
+		}, 
+	'drinks': [
+		'water', 
+		'apparently mountain dew'
+	]
+};
+// alert(JSON.stringify(thing));
+</script>
