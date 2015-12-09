@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Oct 20th</title>
+    <script src="cookieLib.js"> </script>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+    
+	if (GetCookie('username')) {
+		var theUser = GetCookie('username');
+		document.write(`<h1>Welcome back, ${ theUser }</h1>`);
+	} 
+	
+	SetCookie('name', 'eddie');
+	SetCookie('last', 'gurnee');
+	
+	function addCookie() {
+		var username = document.getElementById('inputter').value;
+		
+		SetCookie('username', username);
+	}
+	
+    </script>
+    <label>Username:
+      <input type="text" name="username" id="inputter" />
+    </label>
+    <button onclick="addCookie();">Login</button>
+    <button onclick="console.log(document.cookie);">Show me</button>
+  </body>
+
+</html>
