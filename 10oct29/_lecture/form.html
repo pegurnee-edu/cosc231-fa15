@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Iron Man Fan Club</title>
+<meta charset="UTF-8">
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
+<script src="cookies.js"></script>
+</head>
+<body onload='redirectToAccount()'>
+<div id="welcome"><script>document.write(welcome())</script></div>
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li><a href="index.html">Homepage</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="iron_man.html">Iron Man</a></li>
+				<li class="current_page_item"><a href="join.html"><script>document.write(joinOrAccount())</script></a></li>
+				<li><a href="sitemap.html">Sitemap</a></li>
+			</ul>
+		</div>
+		<!-- end #menu --> 
+	</div>
+	<div id="banner"></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Join Our Awesome Club</h2>
+				<span class="byline">Please fill out the form below to complete your registration</span> </div>
+				<form action="save-info.php" method="POST">
+					<h3>New User Registration</h3>
+					<table>
+						<tr>
+							<td>Username<td>
+							<td><input type="text" name="username" pattern ="^\S*$" data-toggle="tooltip" title="No Spaces"/><td>
+						</tr>
+						<tr>
+							<td>Password<td>
+							<td><input type="text" name="password" pattern="^.[^\s]{7,}$" data-toggle="tooltip" title="No Spaces and at least 8 characters"/><td>
+						</tr>
+						<tr>
+							<td>Full Name<td>
+							<td><input type="text" name="fullName" pattern="^[-\sa-zA-Z]+$"  data-toggle="tooltip" title="Your First and Last Name"/><td>
+						</tr>
+						<tr>
+							<td>Email<td>
+							<td><input type="text" name="email" pattern="^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(com|edu|gov|mil|net|org|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$"  data-toggle="tooltip" title="Your email"/><td>
+						</tr>
+						<tr>
+							<td>Date of Birth<td>
+							<td><input type="date" name="dateOfBirth"  data-toggle="tooltip" title="Date you were born"/><td><!--Known glitch in Firefox, works in Safari and Chrome-->
+						</tr>
+						<tr>
+							<td>Gender<td>
+							<td><select name="gender"  data-toggle="tooltip" title="Choose One">
+								<option value="null"> </option>
+								<option value="Male">Male</option>
+								<option value="Female">Female</option>
+								</select>
+							<td>
+						</tr>
+						<tr>
+							<td>Requested Title<td>
+							<td><input type="text" name="userTitle" pattern="^[-\sa-zA-Z]+$"  data-toggle="tooltip" title="Letters, Spaces, and Hyphens"/><td>
+						</tr>
+						<tr>
+							<td>Credit Card Number<td>
+							<td><input type="text" name="creditCardNumber" pattern="^(-| |)?\d{4}(-| |)?\d{4}(-| |)?\d{4}(-| |)?\d{4}$" data-toggle="tooltip" title="16 digits, 0-9, can have spaces,hyphens, or neither"/><td>
+						</tr>
+						<tr>
+							<td>Favorite Iron Man Film<td>
+							<td><select name="favoriteFilm"  data-toggle="tooltip" title="Choose One">
+								<option value="null"> </option>
+								<option value="Iron Man">Iron Man</option>
+								<option value="Iron Man 2">Iron Man 2</option>
+								<option value="Iron Man 3">Iron Man 3</option>
+								<option value="The Avengers">The Avengers</option>
+								<option value="Avengers: Age of Ultron">Avengers: Age of Ultron</option>
+								</select>
+							<td>
+						</tr>
+					</table>	
+					<button type="reset" value="ClearAllData">Reset Form</button>
+					<button type="submit" name="submit" onclick="createUserCookie(username.value, password.value, fullName.value, email.value, dateOfBirth.value, gender.value, userTitle.value, creditCardNumber.value, favoriteFilm.value)">Submit Application</button>
+			</form>
+		</div>
+	</div>
+</div>
+	
+
+<div id="footer-wrapper">
+	<div id="footer" class="container">
+		
+	</div>
+</div>
+</body>
+</html>
